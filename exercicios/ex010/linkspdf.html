@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+
+
+    <h1>Criando links</h1>
+
+    <p>Pra Podermos criar um Hyperlink devemos ancoralo com a tag &lt;a&gt;</p>
+
+        <a href="https://gustavoguanabara.github.io">Acesse meu perfil no GitHub</a>
+
+
+    <p>Com o atributo hreflang, podemos infotmar qual a linguagem da pagina destino.</p>
+
+        <a href="https://www.w3schools.com/html/" hreflang="en">Site de w3Schools (em Inglês)</a>
+
+    <p>podemos definir aonde essa link sera aberto, precimcamos somente adicionar o atributo "target"<br>
+        <ul>
+            <li>_blank : abre o link em uam niva janela em branco.</li>
+            <li>_self: Abre o link na mesma janela ou frame atual.</li>
+         </ul>
+
+        <a href="pagina2.html" target="_self">Continua navegando no site</a>
+
+        <br>
+        
+        <a href="https://gustavoguanabara.github.com" target="_blank">Abrir meu perfil em uma nova janela</a>
+
+        </p>
+    
+    <p>Podemos também indicar a natureza do link usando o atributo rel, este atributo aceita diversos valores alguns deles são:</p>
+        <ul>
+            <li>next: Indica que o link envia para proxima parte do documento atual.</li>
+            <li>prev: Indica que o link leva para a parte anterior do documento atual.</li>
+            <li>author: India que é um link que leva ao site do autor do artigo atual.</li>
+            <li>external: indica que o link leva a um site que não faz parte do site atual.</li>
+            <li>nofollow: indica que é um lik não endossado, como um link pago.</li>
+        </ul>
+
+        <a href="pagina2.html" target="_self" rel="next">
+            Continuar navegando no site
+        </a>
+        <br>
+        <a href="https://gustavoguanabara.github.com" target="_blank"  rel="external">
+            Abrir perfil GitHub em uma nova janela
+        </a>
+
+
+    <p>Para fazer uma ancoragem de download precisamos incluir o atributo download com o valor recebendo o nome do arquivo, e o atributo type para indicar ai nevegador qual tipo do aquivo que está sendo baixado.</p>
+        
+        <a href="arquivos/meulivro.pdf" download="meulivro.pdf" type="application/pdf">
+            Baixe aqui o pdf do meu livro
+        </a>
+
+    <p>Aqui vão alguns mesia types bem usados no nosso dia-a-dia:</p>
+
+        <ul>
+            <li>application/zip</li>
+            <li>text/html</li>
+            <li>text/css</li>
+            <li>text/javascript</li>
+        </ul>
+        
+        <ul>
+            <li>video/mp4</li>
+            <li>video/h264</li>
+            <li>video/JPEG</li>
+            <li>audio/aac</li>
+        </ul>
+        
+        <ul>
+            <li>audio/mpeg</li>
+            <li>font/ttf</li>
+            <li>image/jpeg</li>
+            <li>image/png</li>
+        </ul>
+
+            <p><a href="index.html" target="_self" rel="prev">VOltar ao Index</a></p>
+</body>
+</html>
