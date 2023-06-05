@@ -70,7 +70,7 @@ header p {
     font-family: var(--font-padrão);
     font-size: 1.1em;
     color: #ffffff;
-    margin: 5px;
+    padding: 5px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.308);
 }
 
