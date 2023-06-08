@@ -68,13 +68,13 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     font-family: var(--font-03);
-    font-size: 3.2vh;
+    font-size: 3.2vw;
 
 }
 
 section P {
     padding-bottom: 2em;
-    font-size: 3.2vh;
+    
 }
 
 section.normal {
@@ -84,6 +84,7 @@ section.normal {
 
 section.imagem {
     color: white;
+    padding-right: 20px;
     background-color: rgba(0, 0, 0, 0.493);
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     background-size: cover;
