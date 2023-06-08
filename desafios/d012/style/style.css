@@ -68,12 +68,13 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     font-family: var(--font-03);
-    font-size: 4vh;
+    font-size: 3.2vh;
 
 }
 
 section P {
     padding-bottom: 2em;
+    font-size: 3.2vh;
 }
 
 section.normal {
